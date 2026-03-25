@@ -11,7 +11,7 @@
 
 ## 📖 Visão Geral
 
-Este laboratório demonstra um dos recursos mais poderosos do kernel Linux: o **XDP (eXpress Data Path)**. Aqui é anexado um pequeno programa eBPF na interface de rede, que descarta pacotes **antes mesmo que eles cheguem à pilha de rede**, tornando a filtragem praticamente "gratuita" em termos de CPU.
+Este laboratório demonstra um dos recursos mais poderosos do kernel Linux: o **XDP (eXpress Data Path)**. Aqui é anexado um pequeno programa eBPF na interface de rede, que descarta pacotes **antes que eles cheguem à pilha de rede**, tornando a filtragem praticamente "gratuita" em termos de CPU.
 
 **O que este laboratório demonstra:**
 - Compilação de um programa eBPF em C para bytecode BPF usando Docker como ambiente de build.
