@@ -156,7 +156,7 @@ docker exec clab-ebpf-lab-node-a ping -c 3 10.0.0.2
 
 ---
 
-## 🛡️ Passo 4 — Ativar o Filtro XDP
+## 🐝 Passo 4 — Ativar o Filtro XDP
 
 ### 4.1 Instalar o bpftool no node-b
 
